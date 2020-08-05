@@ -46,6 +46,11 @@ class CustomTestExecuter implements TestExecuter<CustomTestExecutionSpec> {
                     classDisplayName: "Foo display name 4",
                     displayName     : "bar display name 4"
             ], [
+                    className       : "Foo4",
+                    name            : "bar4(String)[2]",
+                    classDisplayName: "Foo display name 4",
+                    displayName     : "bar display name 42"
+            ], [
                     className       : "Foo5",
                     name            : "bar5",
                     classDisplayName: "Foo display name 5",
